@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+    background-image: url("table.PNG");
+  }
+
+  
+  h1 {
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .container {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  button {
+    color: black;
+    font-size: 30px;
+  }
