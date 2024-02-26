@@ -1,5 +1,5 @@
 function getRandomNumber() {
-  fetch('https://your-azure-function-url/get_random_nhttps://serverdice.azurewebsites.net/get_random_numberumber')
+  fetch('https://serverdice.azurewebsites.net/get_random_number')
       .then(response => {
           if (!response.ok) {
               throw new Error(`Network response was not ok: ${response.status}`);
