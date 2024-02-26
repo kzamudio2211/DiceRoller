@@ -3,7 +3,6 @@
 <head>
 <title>Dice Roller</title>
 <link href="index.css" rel="stylesheet" type="text/css">
-<script src="diceroll.js"></script>
 </head>
 <body>
 
@@ -15,11 +14,12 @@
         <p> Click the "roll" button to roll a dice. </p>
     </div>
 
-    <body onload = "rollDice()"></body>
+    <body onload = "getRandomNumber()"></body>
 
-    <button onclick="rollDice()" autofocus>Roll</button>
+    <button onclick="getRandomNumber()" autofocus>Roll</button>
     <p id="randomNumber"></p>
     
+    <script src="script.js"></script>
     
     </div>
 </div>

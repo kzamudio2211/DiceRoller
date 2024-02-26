@@ -1,4 +1,4 @@
-async function rollDice() {
+async function getRandomNumber() {
   try {
       const response = await fetch('https://serverdice.azurewebsites.net/get_random_number');
       const data = await response.json();
