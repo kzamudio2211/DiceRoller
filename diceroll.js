@@ -1,5 +1,9 @@
-function rollDice() {
-  
-  var result = Math.floor(Math.random() * 6) + 1;
-  document.getElementById("result").innerHTML = "You rolled a " + result;
+async function rollDice() {
+  try {
+      const response = await fetch('https://serverdice.azurewebsites.net/');
+      const data = await response.json();
+      document.getElementById('randomNumber').innerHTML = `Random Number: ${data.random_number}`;
+  } catch (error) {
+      console.error('Error fetching random number:', error);
+  }
 }
